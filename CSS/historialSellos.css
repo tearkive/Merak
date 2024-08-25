@@ -1,0 +1,50 @@
+.contenedor-sellos{
+	margin: 2rem;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.contenido-sellos{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.contenido-sellos img{
+	width: 4rem;
+}
+.contenido-sellos label{
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 1rem;
+	color: hwb(191 15% 49%);
+    margin: 1rem;
+}
+.contenedor-sellos p{
+    font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 1rem;
+	color: hwb(191 15% 49%);
+    margin: 1rem;
+}
+.recompensas p{
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 1rem;
+	color: hwb(191 15% 49%);
+    margin: 1rem;
+}
+.recompensas{
+	margin: 3rem;
+}
+.info-recompensa{
+	display: grid;
+	grid-template-columns: 20% 13%;
+	text-align: center;
+}
+.recompensas-det{
+	display: grid;
+	grid-template-columns:  20% 13%;
+}

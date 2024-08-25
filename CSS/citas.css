@@ -1,0 +1,210 @@
+.programa-cita-header{
+	background-color:#d7f5f6;
+    padding: 1rem;
+}
+.programa-cita-header h2{
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 500;
+	text-align: center;
+	font-size: 1.8rem;
+	color: hwb(191 15% 49%);
+    margin: 1rem;
+}
+.programa-cita-header h3{
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1.3rem;
+	color: hwb(191 15% 49%);
+}
+.programa-cita-header p{
+    font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 1rem;
+	color: hwb(191 15% 49%);
+    margin: 1rem;
+}
+.programar-cita{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+    margin-bottom: 2rem;
+}
+.programar-cita input[type="submit"]{
+    margin-top: 2rem;
+    padding: .8rem;
+    border-radius: 2rem;
+    border: none;
+    color: #277281;
+    background: #d7f5f6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    font-style: normal;
+}
+.programar-cita input[type="submit"]:hover{
+    background: #00b4d8;
+    color: #FFFFFF;
+}
+.programa-cita{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.programa-cita-dos{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.programa-cita-dos button{
+    padding: .8rem;
+    border-radius: 2rem;
+    border: none;
+    color: #277281;
+    background: #d7f5f6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    font-style: normal;
+}
+.programa-cita-dos button:hover{
+    background: #00b4d8;
+    color: #FFFFFF;
+}
+.programar-cita p{
+    font-family: "Merriweather Sans", sans-serif;
+	font-weight: 500;
+	text-align: center;
+	font-size: 1rem;
+	color: hwb(191 15% 49%);
+    margin-top: 2rem;
+}
+.programa-cita-elem label{
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 500;
+	text-align: center;
+	font-size: 1rem;
+	color: #277281;
+}
+.programa-cita-elem input[type="date"]{
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1rem;
+	color: #277281;
+    border-radius: 1rem;
+}
+.programa-cita-elem select{
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1rem;
+	color: #277281;
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+}
+.container-citas{
+    margin: 3rem;
+}
+.container-citas p{
+    font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 1rem;
+	color: #277281;
+    background-color: #FFFFFF;
+}
+.content-citas{
+    width: 90%;
+    margin-left:5%;
+    overflow-x: auto;
+}
+.content-citas button{
+    padding: .8rem;
+    border-radius: 2rem;
+    border: none;
+    color: #277281;
+    background: #d7f5f6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    font-style: normal;
+}
+.content-citas button:hover{
+    background: #00b4d8;
+    color: #FFFFFF;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 25px;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #277281;
+    cursor: pointer;
+}
+th {
+    padding: 1rem;
+    width: auto;
+    border: 1px solid #ddd;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #277281;
+    cursor: pointer;
+    background-color: #d7f5f6;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+.recompensa-nota{
+    background-color:#d7f5f6;
+    padding: .5rem;
+}
+.recompensa-nota p{
+    font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+	text-align: left;
+	font-size: 1rem;
+	color: hwb(191 15% 49%);
+    margin: 1rem;
+}
+.no-register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.no-register p{
+    font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+	text-align: left;
+	font-size: 1rem;
+	color: hwb(191 15% 49%);
+    margin: 1rem;
+}
+.cita p{
+    font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 1rem;
+	color: hwb(191 15% 49%);
+    margin: 1rem;
+}

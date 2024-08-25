@@ -1,0 +1,206 @@
+.reserva-cita {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+	justify-content: center;
+}
+
+.reserva-cita button{
+	padding: .8rem;
+	border-radius: 2rem;
+	border: none;
+	color: #277281;
+	background: #d7f5f6;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 1rem;
+	font-style: normal;
+}
+
+.reserva-cita button:hover{
+    background: #00b4d8;
+	color: #FFFFFF;
+}
+
+.titulo-empresa-negro{
+	color: #277281;
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 500;
+	font-size: 2rem;
+	font-style: normal;
+	padding-top: 5rem;
+	text-align: center;
+}
+
+.subtitulo-negro{
+	color: #277281;
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 500;
+	font-size: 1.8rem;
+	font-style: normal;
+	padding-top: 3rem;
+	text-align: center;
+}
+
+.descripcion{
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1.2rem;
+	color: #277281;
+	margin-bottom: 2rem;
+}
+
+.descripcion-fondo-azul{
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1.2rem;
+	color:hwb(191 15% 49%);
+	padding: 0rem 2rem;
+	margin-bottom: 1rem;
+}
+
+.barra-color {
+	background-color: #d7f5f6;
+    height: 2.5rem;
+    width: 100%;
+}
+.barra-color-primer {
+	background-color: hwb(191 15% 49%);;
+    height: 2.5rem;
+    width: 100%;
+}
+.barra-color-bottom {
+    background-color: #d7f5f6;
+    height: 2.5rem;
+    width: 100%;
+	margin-top: 3rem;
+}
+
+.nuestros-tratamientos{
+	background-color: #d7f5f6;
+}
+
+.titulo-fondo-azul{
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 500;
+	text-align: center;
+	font-size: 1.8rem;
+	color: hwb(191 15% 49%);	
+	padding-top: 2rem;
+}
+
+.servicios-box{
+	width: 90%;
+	justify-content: center;
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+	align-items: stretch;
+    margin: 0 auto;
+}
+
+.img-desc-servicio{
+	display: flex;
+	flex-direction: column;
+	/*display: grid;
+    grid-template-columns: 2fr 1.5fr; */
+    align-items: center;
+    gap: 1rem;
+}
+
+.servicios{
+	background-color: #d7f5f6;
+    border-radius: 1.875rem; 
+	overflow: hidden; 
+    padding: 1.5rem;
+	margin-bottom: 1rem;
+	text-align: center;
+	align-items: center;
+	/*box-shadow: 0 4px 16px rgba(0.1, 0.1, 0.1, 0.1);*/
+}
+
+.servicios h3{
+	font-family: "Merriweather Sans", sans-serif;
+	text-align: center;
+	font-weight: 500;
+	color: hwb(191 15% 49%);
+	margin-bottom: 1rem;
+}
+.servicios img{
+	border-radius: 30px;
+    margin-bottom: 1rem;
+    max-width: 100%;
+	height: auto;
+	box-shadow: 0 4px 16px rgba(0.1, 0.1, 0.1, 0.1);
+}
+.servicios p{
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 1rem;
+	color: hwb(191 15% 49%);
+	line-height: 1.6;
+}
+.imagenes-cert{
+	margin: 4rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+}
+.imagenes-cert img{
+	width: 10%;
+	height: auto;
+}
+.testimonios{
+	background-color:#d7f5f6;
+	padding-bottom: 1rem;
+}
+.testimonios-contenedor{
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+	margin: .75rem;
+	border-radius: 1.875rem; 
+}
+
+.testimonios-contenedor-box{
+	width: 90%;
+	justify-content: center;
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+	padding: 1rem;
+	align-items: stretch;
+    margin: 1rem auto;
+}
+.testimonios-header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: .5rem;
+}
+.testimonios-header p{
+	margin-top: .5rem;
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1.2rem;
+	color: #277281;
+}
+.estrellas{
+	display: flex;
+	gap: 0.25rem;
+	color: #277281;
+}
+.testimonios-descripcion p{
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+	text-align: justify;
+	font-size: 1rem;
+}

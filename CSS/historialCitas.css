@@ -1,0 +1,12 @@
+.container-citas{
+	display: grid;
+	grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+}
+.info-citas{
+	display: grid;
+	grid-template-columns: 14% 14% 14% 14% 14%;
+	text-align: center;
+}
+.container-citas button{
+	width: 100%;
+} 	

@@ -1,0 +1,126 @@
+.datos{
+	background-color:#d7f5f6;
+    padding: 1rem;
+}
+.datos h2{
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 500;
+	text-align: center;
+	font-size: 1.5rem;
+	color: hwb(191 15% 49%);
+    margin: 1rem;
+}
+.datos p{
+    font-family: "Merriweather Sans", sans-serif;
+	font-weight: 500;
+	text-align: center;
+	font-size: 1rem;
+	color: hwb(191 15% 49%);
+    margin: 1rem;
+}
+.datos-sub{
+	background-color:#d7f5f6;
+    padding: .5rem;
+}
+.datos-sub h2{
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 500;
+	text-align: center;
+	font-size: 1.2rem;
+	color: hwb(191 15% 49%);
+    margin: 1rem;
+}
+.datos-noeditables-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+	width: 90%;
+	justify-content: center;
+    gap: 2rem;
+	padding: 1rem;
+	align-items: stretch;
+    margin: 1rem auto;
+}
+.datos-noeditables{
+    background-color: #FFFFFF;
+    width: 100%;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #277281;
+	padding-left: 2rem;
+    padding-right: 2rem;
+	margin: .75rem;
+	border-radius: .5rem; 
+}
+.datos-noeditables label{
+    margin-top: .5rem;
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: .8rem;
+	color: #6a878d;
+}
+.datos-noeditables p{
+    font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+	text-align: justify;
+	font-size: 1rem;
+    color: #277281;
+}
+.datos-editables-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+	width: 60%;
+	justify-content: center;
+    gap: 2rem;
+	padding: 1rem;
+	align-items: stretch;
+    margin: 1rem auto;
+}
+.datos-editables{
+    background-color: #FFFFFF;
+    width: 100%;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #277281;
+	padding-left: 2rem;
+    padding-right: 2rem;
+	margin: .75rem;
+	border-radius: .5rem; 
+}
+.datos-editables label{
+    margin-top: .5rem;
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: .8rem;
+	color: #6a878d;
+}
+.datos-editables p{
+    font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+	text-align: justify;
+	font-size: 1rem;
+    color: #277281;
+}
+.cambiar-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+    margin-bottom: 2rem;
+}
+.cambiar-cont button{
+    padding: .8rem;
+    border-radius: 2rem;
+    border: none;
+    color: #277281;
+    background: #d7f5f6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    font-style: normal;
+}
+    
+.cambiar-cont button:hover{
+    background: #00b4d8;
+    color: #FFFFFF;
+}

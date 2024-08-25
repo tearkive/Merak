@@ -1,0 +1,272 @@
+.nosotros-img img{
+    width: 100%;
+    height: auto;
+}
+.barra-color {
+    background-color: #277281;
+    height: 2.5rem;
+    width: 100%;
+}
+.barra-color-bottom {
+    background-color: #d7f5f6;
+    height: 2.5rem;
+    width: 100%;
+	margin-top: 3rem;
+}
+.conocenos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	align-items: center;
+    margin: 0 auto;
+	justify-content: center;
+}
+.titulo-negro{
+	color: #277281;
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 500;
+	font-size: 2rem;
+	font-style: normal;
+	padding-top: 3rem;
+	text-align: center;
+}
+.descripcion-box{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 80%;
+    height: auto;
+    align-content: center;
+}
+.descripcion{
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1.3rem;
+	color: #277281;
+}
+.conocenos button{
+	padding: .8rem;
+	border-radius: 2rem;
+	border: none;
+	color: #277281;
+	background: #d7f5f6;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 1rem;
+	font-style: normal;
+}
+.conocenos button:hover{
+    background: #00b4d8;
+	color: #FFFFFF;
+}
+.equipo{
+    background-color: #d7f5f6;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 2rem auto;
+    align-items: center;
+    gap: 2rem;
+}
+.equipo p {
+    margin: 0.5rem 0;
+}
+.profesional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profesional img{
+    border-radius: 30px;
+    margin-top: 1rem;
+    max-width: 100%;
+	height: auto;
+	box-shadow: 0 4px 16px rgba(0.1, 0.1, 0.1, 0.1);
+    object-fit: cover;
+    width: 40%;
+    height: 40vw;
+}
+.subtitulo-fondo-azul{
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 500;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #277281;	
+	padding-top: 2rem;
+}
+.profesion{
+    font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+    font-style: italic;
+	text-align: center;
+	font-size: 1.3rem;
+	color: #46bfca;
+}
+.descripcion-profesional{
+    width: 60%;
+    height: auto;
+    text-align: center;
+    font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+	font-size: 1rem;
+	color: #277281;
+}
+.instalaciones{
+    margin: 2rem;
+}
+.slider-instalaciones .lista-instalaciones{
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: repeat(4,1fr);
+    overflow-y: auto;
+    scrollbar-width: none;
+    margin-bottom: 30px;
+}
+.slider-instalaciones .lista-instalaciones::-webkit-scrollbar{
+    display: none;
+}
+.slider-instalaciones .lista-instalaciones img{
+    object-fit: cover;
+}
+.slider-scrollbar{
+    height: 24px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+.slider-scrollbar .scrollbar-track{
+    height: 2px;
+    width: 100%;
+    background: #d7f5f6;
+    position: relative;
+    border-radius: 4px;
+}
+.slider-scrollbar:hover .scrollbar-track{
+    height: 4px;
+}
+.slider-scrollbar .scrollbar-thumb{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: #277281;
+    border-radius: inherit;
+    cursor: grab;
+}
+
+.slider-scrollbar .scrollbar-thumb::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+}
+.slider-scrollbar .scrollbar-thumb:active{
+    cursor:grabbing;
+    height: 8px;
+    top: -2px;
+}
+.quiropractica p{
+    height: auto;
+    text-align: justify;
+    font-family: "Merriweather Sans", sans-serif;
+    line-height: 1.4;
+	font-weight: 300;
+	font-size: 1.2rem;
+	color: #277281;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+}
+.descripcion-quiro img{
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    max-width: 100%;
+	height: auto;
+	box-shadow: 0 4px 16px rgba(0.1, 0.1, 0.1, 0.1);
+}
+.descripcion-quiro{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: auto;
+    width: 90%;
+    padding-bottom: 2rem;
+}
+.fisioterapia p{
+    height: auto;
+    text-align: justify;
+    font-family: "Merriweather Sans", sans-serif;
+    line-height: 1.4;
+	font-weight: 300;
+	font-size: 1.2rem;
+	color: #277281;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+}
+.descripcion-fisio{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 3rem;
+    width: 90%;
+    padding-bottom: 2rem;
+}
+.descripcion-fisio img{
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    margin-left: 3rem;
+	height: auto;
+	box-shadow: 0 4px 16px rgba(0.1, 0.1, 0.1, 0.1);
+}
+.tratamientos-frase{
+    font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 1.3rem;
+	color: hwb(191 15% 49%);
+}
+.subtitulo-negro{
+    color: #277281;
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 500;
+	font-size: 1.5rem;
+	font-style: normal;
+	text-align: center;
+}
+.tratamientos-cont{
+    width: 90%;
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem auto;
+}
+.tratamientos-contenedor-box{
+	display: grid;
+    gap: 1rem;
+	align-items: stretch;
+    justify-content: center;
+    margin: 1rem auto;
+}
+.tratamientos-contenedor{
+    background-color: #FFFFFF;
+    display: flex;
+	align-items: center;
+	justify-content: flex-start;
+    gap: 1rem;
+	border-radius: 1.875rem;
+    padding-left: .8rem;
+    padding-right: .8rem;
+}
+.tratamientos-contenedor p{
+    color: #277281;
+    font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+	text-align: left;
+	font-size: 1rem;
+}
