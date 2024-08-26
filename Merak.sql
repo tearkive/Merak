@@ -130,3 +130,21 @@ CREATE PROCEDURE verProfesionalesbyId(idU INT)
 	SELECT profesionales.idProfesional, profesionales.idUsuario, CONCAT(usuarios.Nombre," ",usuarios.Apellidos) AS Nombre_Profesional FROM profesionales INNER JOIN usuarios ON profesionales.idUsuario = usuarios.idUsuario WHERE profesionales.idUsuario = idU;
 CREATE PROCEDURE eliminarProfesional(idU INT)
 	DELETE FROM profesionales WHERE idUsuario = idU;
+
+
+INSERT INTO beneficios (idBeneficio, Descripcion) VALUES
+(1, '10% de descuento en la proxima cita'),
+(2, '50% de descuento en cremas'),
+(3, '40% de descuento en la proxima cita');
+
+INSERT INTO usuarios (idUsuario, Nombre, Apellidos, Fecha_Nacimiento, Tel, Correo, Contraseña) VALUES
+(1, 'Oscar Javier', 'Escobar Méndez',12/11/2001,4772710822, '20240481@leon.tecnm.mx', '81dc9bdb52d04dc20036dbd8313ed055'),
+(2, 'Oscar Javier', 'Escobar Mendez',01/01/1990,4772710821,'kof222.je@gmail.com','81dc9bdb52d04dc20036dbd8313ed055'),
+(3, 'Evelyn','Corralejo Alamilla',25/08/2001, 4775528479, '20240475@leon.tecnm.mx','81dc9bdb52d04dc20036dbd8313ed055');
+
+INSERT INTO administradores (idAdministrador, idUsuario) VALUES
+(1,1);
+
+INSERT INTO pacientes (idPaciente, idUsuario, frecuencia) VALUES
+(1,2,'Poco frecuente'),
+(2,3,'Poco frecuente');
